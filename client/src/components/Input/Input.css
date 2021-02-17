@@ -1,0 +1,43 @@
+.form {
+    color: var(--primary);
+    background-color: var(--secondary);
+    width: 100%;
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.form input {
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+
+.form label {
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.content {
+    position: absolute;
+    bottom: 15px;
+    left:10px;
+    transition: all 0.3s ease;
+    color: #595f6e;
+}
+
+.form input:focus + .label .content, 
+.form input:valid + .label .content{
+    transform: translateY(-70%);
+    font-size: 14px;
+    color: var(--accent)
+}

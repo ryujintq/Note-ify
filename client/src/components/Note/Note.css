@@ -1,0 +1,33 @@
+.note {
+    background-color: rgb(15, 15, 15);
+    border-radius: 10px;
+    border: 1px solid rgb(83, 83, 83);
+    text-align: left;
+    cursor: pointer;
+    height: 250px;
+}
+
+.note:hover {
+    background-color: rgb(49, 49, 49);
+}
+
+.note-inner {
+    margin: 20px;
+}
+
+.note-inner h2 {
+    font-size: 24px
+}
+
+.note-inner p {
+    font-size: 16px
+}
+
+.date{
+    color: rgb(160, 160, 160);
+}
+
+.body {
+    margin-top: 10px;
+    font-size: 16px
+}

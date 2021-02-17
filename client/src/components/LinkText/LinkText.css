@@ -1,0 +1,9 @@
+.link {
+    text-decoration: none;
+    color: inherit;
+    margin-top: 20px;
+}
+
+.link:hover {
+    color: var(--accent)
+}

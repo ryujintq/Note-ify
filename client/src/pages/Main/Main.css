@@ -1,0 +1,101 @@
+.notes-main {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    margin-top: 20px;
+}
+
+.menu {
+    position: relative;
+}
+
+.menu-dropdown {
+    position: absolute;
+    top: 20;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background-color: var(--grey);
+    border-radius: 5px;
+    text-align: left;
+    padding: 10px;
+    display: none;
+}
+
+.menu-active {
+    display: block;
+}
+
+.menu-dropdown p {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.icons {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   height: 50px;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.search{
+    position: relative;
+}
+
+.search-bar {
+    position: absolute;
+    right: 30px;
+    top: 3px;
+    width: 0;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    transition: width 0.5s ease-in-out;
+    color: white;
+}
+
+.search-bar::placeholder {
+    color: white;
+}
+
+.search-active {
+    width: 200px;
+}
+
+.notes-section {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    grid-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.circle-btn {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 50px;
+    height: 50px;
+    bottom: 50px;
+    right: 50px;
+    background-color: var(--accent);
+    font-size: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: grid;
+    place-content: center;
+    align-self: flex-end;
+    justify-self: flex-end;
+}

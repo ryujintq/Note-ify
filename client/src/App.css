@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: #000000;
+  --grey: #313131;
+  --secondary: #FFFFFF;
+  --accent: #ff1e56;
+}
+  
+.app {
+  background-color: var(--primary);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--secondary);
+}
+
+.inner-app {
+  max-width: 1100px;
+  padding: 15px;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+} 

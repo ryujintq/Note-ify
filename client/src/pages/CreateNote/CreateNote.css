@@ -1,0 +1,47 @@
+.create-main {
+    width: 100%;
+    height: 100%;
+}
+
+.create-top-section {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    border-bottom: 1px solid white;
+}
+
+.create-note-input {
+    background-color: transparent;
+    color: white;
+    border: none;
+    width: 100%;
+    resize: none;
+}
+
+.create-title-input {
+    padding-top: 30px;
+    font-size: 30px;
+    overflow: hidden;
+}
+
+.create-icon {
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.create-body-input {
+    margin-top: 20px;
+    font-size: 20px;
+    height: 85%;
+}
+
+.create-note-input:focus {
+    outline: none;
+}
+
+.create-body {
+    margin-top: 20px;
+    font-size: 20px;
+}
